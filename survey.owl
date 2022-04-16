@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#"
-     xml:base="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl"
+<rdf:RDF xmlns="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#"
+     xml:base="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl">
-        <owl:versionIRI rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl/1.0"/>
+    <owl:Ontology rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl">
+        <owl:versionIRI rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl/1.0"/>
     </owl:Ontology>
-    
+
 
 
     <!--
@@ -23,144 +23,144 @@
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasCourse -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasCourse -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasCourse">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasID"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Course"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasCourse">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasID"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Course"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasDescription -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasDescription -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasDescription">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasID"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Description"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasID"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Description"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasID -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasID -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasID">
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Survey"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
-        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasQuestions"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasID">
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Survey"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
+        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasQuestions"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasInstructor -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasInstructor -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasInstructor">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasID"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Instructor"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasInstructor">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasID"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Instructor"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOEQuestionAnswer -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOEQuestionAnswer -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOEQuestionAnswer">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOpenEndedQuestions"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionAnswer"/>
-        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOEQuestionLabel"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOEQuestionAnswer">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOpenEndedQuestions"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionAnswer"/>
+        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOEQuestionLabel"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOEQuestionLabel -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOEQuestionLabel -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOEQuestionLabel">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOpenEndedQuestions"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionLabel"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOEQuestionLabel">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOpenEndedQuestions"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionLabel"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOpenEndedQuestions -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOpenEndedQuestions -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasOpenEndedQuestions">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasQuestions"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
-        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRatingQuestions"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasOpenEndedQuestions">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasQuestions"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
+        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRatingQuestions"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasQuestions -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasQuestions -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasQuestions">
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Survey"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasQuestions">
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Survey"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQQuestionLabel -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQQuestionLabel -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQQuestionLabel">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRatingQuestions"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
-        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingAnswerScale"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQQuestionLabel">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRatingQuestions"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
+        <owl:propertyDisjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingAnswerScale"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingAnswerScale -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingAnswerScale -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingAnswerScale">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRatingQuestions"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingAnswerScale">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRatingQuestions"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingLabel -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingLabel -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingLabel">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingAnswerScale"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingLabel">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingAnswerScale"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingValue -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingValue -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingValue">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRQRatingAnswerScale"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingValue">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRQRatingAnswerScale"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRatingQuestions -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRatingQuestions -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasRatingQuestions">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasQuestions"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasRatingQuestions">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasQuestions"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasSemester -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasSemester -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasSemester">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasID"/>
-        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
-        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Semester"/>
+    <owl:ObjectProperty rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasSemester">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasID"/>
+        <rdfs:domain rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
+        <rdfs:range rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Semester"/>
     </owl:ObjectProperty>
 
 
@@ -176,137 +176,137 @@
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Course -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Course -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Course">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Course">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Description -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Description -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Description">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Description">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Survey"/>
-        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Survey"/>
+        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions"/>
         <rdfs:comment>Each survey &quot;ID&quot; has a unique &quot;Semester&quot;, &quot;Course&quot;, &quot;Instructor&quot; and &quot;Description&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Instructor -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Instructor -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Instructor">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Instructor">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionAnswer -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionAnswer -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionAnswer">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
-        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionLabel"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionAnswer">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
+        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionLabel"/>
         <rdfs:comment>&quot;OEQuestionAnswer&quot; can be stored in different forms. Here, they are in the form of textfiles. Hence, for answers to 3 instances of &quot;OpenEndedQuestions&quot;, the 3 instances of &quot;OEQuestionAnswer&quot;(textfiles) would be &quot;OEAnswer1&quot;, &quot;OEAnswer2&quot;, and &quot;OEAnswer3&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionLabel -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionLabel -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionLabel">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionLabel">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
         <rdfs:comment>&quot;OEQuestionLabel&quot; are the labels for 3 instances of &quot;OpenEndedQuestions&quot;. Hence, there would be 3 instances of &quot;OEQuestionLabel&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions"/>
-        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions"/>
+        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
         <rdfs:comment>Each &quot;OpenEndedQuestion&quot; has &quot;OEQuestionLabel&quot; and &quot;OEQuestionAnswer&quot;
 &quot;OE1&quot;, &quot;OE2&quot;, and &quot;OE3&quot; are instances of &quot;OpenEndedQuestions&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Survey"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Survey"/>
         <rdfs:comment>&quot;Questions&quot; are of two types &quot;OpenEndedQuestions&quot;and &quot;RatingQuestions&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
-        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
+        <owl:disjointWith rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale"/>
         <rdfs:comment>&quot;RQQuestionLabel&quot; are the lables for 9 instances of &quot;RatingQuestions&quot;. Hence, there would be 9 instances of &quot;RQQuestionLabel&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
         <rdfs:comment>&quot;RQRatingAnswerScale&quot; has &quot;RQRatingLabel&quot; and &quot;RQRatingValue&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale"/>
         <rdfs:comment>&quot;RQRatingLabel&quot; can have various instances depending on the type of rating scale used. Here, we use NeverAlways5, so there would be 6 instances of &quot;RQRatingLabel&quot; including an instance for &quot;Not Answered&quot; cases</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingAnswerScale"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingAnswerScale"/>
         <rdfs:comment>&quot;RQRatingValue&quot; has 6 instances for 6 &quot;RQRatingLabel&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Questions"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Questions"/>
         <rdfs:comment>Each of &quot;RatingQuestions&quot; has &quot;RQQuestionLabel&quot; and &quot;RQRatingAnswerScale&quot;
 &quot;RatingQuestions&quot; has 9 instances in our feedback form, &quot;RQ1&quot; to &quot;RQ9&quot;</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Semester -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Semester -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Semester">
-        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#ID"/>
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Semester">
+        <rdfs:subClassOf rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#ID"/>
     </owl:Class>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Survey -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Survey -->
 
-    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Survey">
+    <owl:Class rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Survey">
         <rdfs:comment>Each &quot;Survey&quot; has &quot;ID&quot;, and &quot;Questions&quot;
 &quot;feedback_survey&quot; is an instance of &quot;Survey&quot;</rdfs:comment>
     </owl:Class>
@@ -324,322 +324,322 @@
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Always -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Always -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Always">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Always">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Never -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Never -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Never">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Never">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#NoAnswer -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#NoAnswer -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#NoAnswer">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#NoAnswer">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OE1 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OE1 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OE1">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OE1">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OE2 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OE2 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OE2">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OE2">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OE3 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OE3 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OE3">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OpenEndedQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OE3">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OpenEndedQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEAnswer1 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEAnswer1 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEAnswer1">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionAnswer"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEAnswer1">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionAnswer"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEAnswer2 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEAnswer2 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEAnswer2">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionAnswer"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEAnswer2">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionAnswer"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEAnswer3 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEAnswer3 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEAnswer3">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionAnswer"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEAnswer3">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionAnswer"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Often -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Often -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Often">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Often">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ1 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ1 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ1">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ1">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ2 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ2 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ2">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ2">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ3 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ3 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ3">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ3">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ4 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ4 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ4">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ4">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ5 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ5 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ5">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ5">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ6 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ6 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ6">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ6">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ7 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ7 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ7">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ7">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ8 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ8 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ8">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ8">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ9 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ9 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQ9">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RatingQuestions"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQ9">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RatingQuestions"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Rarely -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Rarely -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Rarely">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Rarely">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Sometimes -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Sometimes -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Sometimes">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Sometimes">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#feedback_survey -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#feedback_survey -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#feedback_survey">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Survey"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#feedback_survey">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Survey"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#0 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#0 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#0">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#0">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#1 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#1 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#1">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#1">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#1.The_instructor_is_well_prepared_for_class -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#1.The_instructor_is_well_prepared_for_class -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#1.The_instructor_is_well_prepared_for_class">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#1.The_instructor_is_well_prepared_for_class">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#1.What_do_you_like_the_best_about_this_course? -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#1.What_do_you_like_the_best_about_this_course? -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#1.What_do_you_like_the_best_about_this_course?">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#1.What_do_you_like_the_best_about_this_course?">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#2 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#2 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#2">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#2">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#2.The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#2.The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#2.The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#2.The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#2.What_would_you_like_to_change_about_this_course? -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#2.What_would_you_like_to_change_about_this_course? -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#2.What_would_you_like_to_change_about_this_course?">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#2.What_would_you_like_to_change_about_this_course?">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#3 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#3 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#3">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#3">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#3.The_instructor_uses_class_time_effectively -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#3.The_instructor_uses_class_time_effectively -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#3.The_instructor_uses_class_time_effectively">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#3.The_instructor_uses_class_time_effectively">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#3.What_do_you_think_the_instructor&apos;s_greatest_strengths_are? -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#3.What_do_you_think_the_instructor&apos;s_greatest_strengths_are? -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#3.What_do_you_think_the_instructor&apos;s_greatest_strengths_are?">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#OEQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#3.What_do_you_think_the_instructor&apos;s_greatest_strengths_are?">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#OEQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#4 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#4 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#4">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#4">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#4.The_instructor_has_clear_expectations_for_assigned_work -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#4.The_instructor_has_clear_expectations_for_assigned_work -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#4.The_instructor_has_clear_expectations_for_assigned_work">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#4.The_instructor_has_clear_expectations_for_assigned_work">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#5 -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#5 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#5">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQRatingValue"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#5">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQRatingValue"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#5.The_instructor_encourages_student_participation -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#5.The_instructor_encourages_student_participation -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#5.The_instructor_encourages_student_participation">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#5.The_instructor_encourages_student_participation">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#6.The_instructor_clearly_answers_questions -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#6.The_instructor_clearly_answers_questions -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#6.The_instructor_clearly_answers_questions">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#6.The_instructor_clearly_answers_questions">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#7.The_instructor_treats_students_with_respect -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#7.The_instructor_treats_students_with_respect -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#7.The_instructor_treats_students_with_respect">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#7.The_instructor_treats_students_with_respect">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#8.The_instructor_easily_directs_and_simulates_discussion -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#8.The_instructor_easily_directs_and_simulates_discussion -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#8.The_instructor_easily_directs_and_simulates_discussion">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#8.The_instructor_easily_directs_and_simulates_discussion">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#9.The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers -->
+    <!-- https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#9.The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#9.The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers">
-        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#RQQuestionLabel"/>
+    <owl:NamedIndividual rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#9.The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers">
+        <rdf:type rdf:resource="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#RQQuestionLabel"/>
     </owl:NamedIndividual>
 
 
@@ -655,19 +655,19 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Course"/>
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Description"/>
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Instructor"/>
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#Semester"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Course"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Description"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Instructor"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#Semester"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasCourse"/>
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasDescription"/>
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasInstructor"/>
-            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/blob/main/survey.owl#hasSemester"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasCourse"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasDescription"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasInstructor"/>
+            <rdf:Description rdf:about="https://github.com/Parita-Amin/Parita-Amin.github.io/survey.owl#hasSemester"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
