@@ -214,6 +214,17 @@
     
 
 
+    <!-- https://parita-amin.github.io/try1.owl#hasRQQuestionAnswer -->
+
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/try1.owl#hasRQQuestionAnswer">
+        <rdfs:subPropertyOf rdf:resource="https://parita-amin.github.io/try1.owl#hasRatingQuestions"/>
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/try1.owl#RatingQuestions"/>
+        <rdfs:range rdf:resource="https://parita-amin.github.io/try1.owl#RQQuestionAnswer"/>
+        <owl:propertyDisjointWith rdf:resource="https://parita-amin.github.io/try1.owl#hasRQQuestionLabel"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://parita-amin.github.io/try1.owl#hasRQQuestionLabel -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/try1.owl#hasRQQuestionLabel">
@@ -227,8 +238,8 @@
     <!-- https://parita-amin.github.io/try1.owl#hasRQRatingAnswerScale -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/try1.owl#hasRQRatingAnswerScale">
-        <rdfs:subPropertyOf rdf:resource="https://parita-amin.github.io/try1.owl#hasRatingQuestions"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/try1.owl#RatingQuestions"/>
+        <rdfs:subPropertyOf rdf:resource="https://parita-amin.github.io/try1.owl#hasRQQuestionAnswer"/>
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/try1.owl#RQQuestionAnswer"/>
         <rdfs:range rdf:resource="https://parita-amin.github.io/try1.owl#RQRatingAnswerScale"/>
     </owl:ObjectProperty>
     
@@ -488,6 +499,15 @@
     
 
 
+    <!-- https://parita-amin.github.io/try1.owl#RQQuestionAnswer -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/try1.owl#RQQuestionAnswer">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/try1.owl#RatingQuestions"/>
+        <owl:disjointWith rdf:resource="https://parita-amin.github.io/try1.owl#RQQuestionLabel"/>
+    </owl:Class>
+    
+
+
     <!-- https://parita-amin.github.io/try1.owl#RQQuestionLabel -->
 
     <owl:Class rdf:about="https://parita-amin.github.io/try1.owl#RQQuestionLabel">
@@ -499,7 +519,7 @@
     <!-- https://parita-amin.github.io/try1.owl#RQRatingAnswerScale -->
 
     <owl:Class rdf:about="https://parita-amin.github.io/try1.owl#RQRatingAnswerScale">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/try1.owl#RatingQuestions"/>
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/try1.owl#RQQuestionAnswer"/>
     </owl:Class>
     
 
@@ -973,6 +993,16 @@
             <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQLabel7"/>
             <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQLabel8"/>
             <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQLabel9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQRatingScale1"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQRatingScale2"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQRatingScale3"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQRatingScale4"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/try1.owl#hasRQRatingScale5"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
