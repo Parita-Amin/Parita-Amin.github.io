@@ -85,15 +85,6 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasResponseDate -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasResponseDate">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#ResponseDate"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://parita-amin.github.io/survey.owl#hasSurveyAnswer -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasSurveyAnswer">
