@@ -235,6 +235,15 @@
     
 
 
+    <!-- https://parita-amin.github.io/survey.owl#hasLikertAnswer -->
+
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertAnswer">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://parita-amin.github.io/survey.owl#hasResponseNumber -->
 
     <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasResponseNumber"/>
