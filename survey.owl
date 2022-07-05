@@ -5,7 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:survey="https://parita-amin.github.io/survey.owl#">
     <owl:Ontology rdf:about="https://parita-amin.github.io/survey.owl">
         <owl:versionIRI rdf:resource="https://parita-amin.github.io/survey.owl/1.0"/>
     </owl:Ontology>
@@ -89,6 +90,9 @@
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasSurveyAnswer">
         <rdfs:subPropertyOf rdf:resource="https://parita-amin.github.io/survey.owl#hasContent"/>
+        <owl:inverseOf rdf:resource="https://parita-amin.github.io/survey.owl#isSurveyAnswerOf"/>
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
+        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#SurveyAnswers"/>
     </owl:ObjectProperty>
     
 
@@ -235,6 +239,33 @@
     
 
 
+    <!-- https://parita-amin.github.io/survey.owl#hasOEAns_Change -->
+
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAns_Change">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#hasOEAns_LikeBest -->
+
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAns_LikeBest">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#hasOEAns_Strengths -->
+
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAns_Strengths">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -296,8 +327,8 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEAns_BestLike"/>
                     <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Change"/>
+                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEAns_LikeBest"/>
                     <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Strengths"/>
                 </owl:oneOf>
             </owl:Class>
@@ -313,8 +344,8 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_BestLike"/>
                     <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_Change"/>
+                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_LikeBest"/>
                     <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_Strengths"/>
                 </owl:oneOf>
             </owl:Class>
@@ -384,30 +415,29 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#OEAns_BestLike -->
+    <!-- https://parita-amin.github.io/survey.owl#OEAns_Change -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_BestLike">
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Change">
         <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
+        <survey:hasOEAns_Change rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></survey:hasOEAns_Change>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#OEAns_Change -->
+    <!-- https://parita-amin.github.io/survey.owl#OEAns_LikeBest -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Change"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_LikeBest">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
+        <survey:hasOEAns_LikeBest rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></survey:hasOEAns_LikeBest>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://parita-amin.github.io/survey.owl#OEAns_Strengths -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Strengths"/>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OEQuestion_BestLike -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_BestLike">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Strengths">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
+        <survey:hasOEAns_Strengths rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></survey:hasOEAns_Strengths>
     </owl:NamedIndividual>
     
 
@@ -415,6 +445,14 @@
     <!-- https://parita-amin.github.io/survey.owl#OEQuestion_Change -->
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_Change">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#OEQuestion_LikeBest -->
+
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_LikeBest">
         <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
     </owl:NamedIndividual>
     
@@ -452,27 +490,59 @@
     
 
 
+    <!-- https://parita-amin.github.io/survey.owl#Respondent4 -->
+
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#Respondent4">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#Respondent5 -->
+
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#Respondent5">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#05-JAN-2022 -->
+
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#05-JAN-2022">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#ResponseDate"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://parita-amin.github.io/survey.owl#1 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#1"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#1">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://parita-amin.github.io/survey.owl#2 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#2"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#2">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://parita-amin.github.io/survey.owl#3 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#3"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#3">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://parita-amin.github.io/survey.owl#4 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#4"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#4">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
+    </owl:NamedIndividual>
     
 
 
