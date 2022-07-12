@@ -23,8 +23,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/1">
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -39,27 +39,27 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/2">
-	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
+	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_directs_and_stimulates_discussion>
+	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_treats_students_with_respect>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">07/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
+	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_encourages_student_participation>
-	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_answers_questions>
-	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_treats_students_with_respect>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/3">
+	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_has_clear_expectations_for_assigned_work>
+	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_clearly_answers_questions>
-	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">11/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
-	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_has_clear_expectations_for_assigned_work>
-	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
+	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_directs_and_stimulates_discussion>
 	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
 	<hasOEAnswer_Change xmlns="https://parita-amin.github.io/survey.owl#">I am confused on what the topics of this course even are. Every class it's students asking questions about the assignments and projects and then we have about 15 minutes at the end of every class to try and have a discussion. </hasOEAnswer_Change>
@@ -67,18 +67,18 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/4">
+	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
+	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
+	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_directs_and_stimulates_discussion>
+	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
+	<hasOEAnswer_LikeBest xmlns="https://parita-amin.github.io/survey.owl#">The course effectively encourages me to ask questions and give answers. I like the class discussions on current topics in the world, helps me keep myself aware of what is happening in the world. </hasOEAnswer_LikeBest>
+	<hasOEAnswer_Change xmlns="https://parita-amin.github.io/survey.owl#">This class is different from all the other classes I have taken. The discussions are open-ended and sometimes I feel I am not sure how well I am doing in this class or what I am learning. I would like to see more concrete implementation for achieving the desired learning outcomes. I do not what would be there on the final exam and what should I need to do to pass the final exam.</hasOEAnswer_Change>
+	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
-	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
-	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
-	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
-	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_directs_and_stimulates_discussion>
-	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
-	<hasOEAnswer_LikeBest xmlns="https://parita-amin.github.io/survey.owl#">The course effectively encourages me to ask questions and give answers. I like the class discussions on current topics in the world, helps me keep myself aware of what is happening in the world. </hasOEAnswer_LikeBest>
-	<hasOEAnswer_Change xmlns="https://parita-amin.github.io/survey.owl#">This class is different from all the other classes I have taken. The discussions are open-ended and sometimes I feel I am not sure how well I am doing in this class or what I am learning. I would like to see more concrete implementation for achieving the desired learning outcomes. I do not what would be there on the final exam and what should I need to do to pass the final exam.</hasOEAnswer_Change>
 	<hasOEAnswer_Strengths xmlns="https://parita-amin.github.io/survey.owl#">Dr. Daryl Hepting is a great mentor with a lot of knowledge and experience teaching this course. He is always well-prepared for the class and communicates his expectations for students clearly. His teaching style encourages student participation. He is very respectful of his students and always willing to go above and beyond for helping his students. I would definitely take another class with Dr. Hepting.</hasOEAnswer_Strengths>
 </rdf:Description>
 
@@ -157,14 +157,14 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/10">
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
+	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_encourages_student_participation>
-	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
-	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
+	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_directs_and_stimulates_discussion>
 	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
 	<hasOEAnswer_LikeBest xmlns="https://parita-amin.github.io/survey.owl#">I enjoy how the instructor is very knowledgeable and always available when questions need to be answered.  </hasOEAnswer_LikeBest>
@@ -174,8 +174,8 @@
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/11">
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">11/MAR/2022</hasRespondedOn>
-	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
+	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">1</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_encourages_student_participation>
@@ -189,8 +189,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/12">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">04/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -205,8 +205,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/13">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
+	<hasOEAnswer_Strengths xmlns="https://parita-amin.github.io/survey.owl#">Greatest strengths are being able to communicate with students about assignment topics as well as the freedom he is able to give students in his class.</hasOEAnswer_Strengths>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">05/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -217,7 +218,6 @@
 	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
 	<hasOEAnswer_LikeBest xmlns="https://parita-amin.github.io/survey.owl#">I like the say we are able to give about assignment due dates.</hasOEAnswer_LikeBest>
 	<hasOEAnswer_Change xmlns="https://parita-amin.github.io/survey.owl#">I would probably change how to teach things having more of a concrete definition of different topics.</hasOEAnswer_Change>
-	<hasOEAnswer_Strengths xmlns="https://parita-amin.github.io/survey.owl#">Greatest strengths are being able to communicate with students about assignment topics as well as the freedom he is able to give students in his class.</hasOEAnswer_Strengths>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/14">
@@ -234,9 +234,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/15">
-	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">11/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
+	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
@@ -295,8 +295,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/19">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">10/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -311,7 +311,6 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/20">
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">06/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
@@ -320,6 +319,7 @@
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_directs_and_stimulates_discussion>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">06/MAR/2022</hasRespondedOn>
 	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
 	<hasOEAnswer_LikeBest xmlns="https://parita-amin.github.io/survey.owl#">I like the course material and that discussion is encouraged.</hasOEAnswer_LikeBest>
 	<hasOEAnswer_Change xmlns="https://parita-amin.github.io/survey.owl#">I would like to talk more about stuff we are told to watch or read before class in actual class time.</hasOEAnswer_Change>
@@ -327,6 +327,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/21">
+	<hasOEAnswer_LikeBest xmlns="https://parita-amin.github.io/survey.owl#">The best thing I like about this course is that I hear my peers' points of view and I can build my aspect upon their points of view.</hasOEAnswer_LikeBest>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
@@ -337,16 +338,15 @@
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_directs_and_stimulates_discussion>
 	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
-	<hasOEAnswer_LikeBest xmlns="https://parita-amin.github.io/survey.owl#">The best thing I like about this course is that I hear my peers' points of view and I can build my aspect upon their points of view.</hasOEAnswer_LikeBest>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/22">
+	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">07/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_has_clear_expectations_for_assigned_work>
-	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_directs_and_stimulates_discussion>
@@ -357,8 +357,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/23">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -373,8 +373,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/24">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">10/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -390,9 +390,9 @@
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/25">
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">09/MAR/2022</hasRespondedOn>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">09/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
@@ -405,11 +405,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/26">
+	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">10/MAR/2022</hasRespondedOn>
+	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
-	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
-	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
@@ -431,11 +431,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/28">
+	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">09/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_uses_class_time_effectively>
-	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
@@ -447,9 +447,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/29">
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">03/MAR/2022</hasRespondedOn>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
@@ -463,8 +463,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/30">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">10/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -479,11 +479,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/31">
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">10/MAR/2022</hasRespondedOn>
+	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
+	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
-	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
-	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">10/MAR/2022</hasRespondedOn>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
@@ -559,9 +559,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/36">
-	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">07/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
+	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_encourages_student_participation>
@@ -575,12 +575,12 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/37">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">06/MAR/2022</hasRespondedOn>
+	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
-	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">06/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_directs_and_stimulates_discussion>
@@ -639,9 +639,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/41">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">11/MAR/2022</hasRespondedOn>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">11/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
@@ -655,8 +655,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/42">
-	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">09/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_is_well-prepared_for_class>
+	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">09/MAR/2022</hasRespondedOn>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -744,13 +744,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/48">
-	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
-	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">04/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_uses_class_time_effectively>
+	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_encourages_student_participation>
+	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_directs_and_stimulates_discussion>
 	<hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers>
@@ -807,8 +807,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/52">
-	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">04/MAR/2022</hasRespondedOn>
+	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">2</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
 	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
 	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_has_clear_expectations_for_assigned_work>
@@ -823,12 +823,12 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl/53">
-	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_encourages_student_participation>
-	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
-	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
 	<hasRespondedOn xmlns="https://parita-amin.github.io/survey.owl#">11/MAR/2022</hasRespondedOn>
 	<hasLikertAns_is_well-prepared_for_class xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_is_well-prepared_for_class>
 	<hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation>
+	<hasLikertAns_uses_class_time_effectively xmlns="https://parita-amin.github.io/survey.owl#">3</hasLikertAns_uses_class_time_effectively>
+	<hasLikertAns_has_clear_expectations_for_assigned_work xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_has_clear_expectations_for_assigned_work>
+	<hasLikertAns_encourages_student_participation xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_encourages_student_participation>
 	<hasLikertAns_clearly_answers_questions xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_clearly_answers_questions>
 	<hasLikertAns_treats_students_with_respect xmlns="https://parita-amin.github.io/survey.owl#">5</hasLikertAns_treats_students_with_respect>
 	<hasLikertAns_effectively_directs_and_stimulates_discussion xmlns="https://parita-amin.github.io/survey.owl#">4</hasLikertAns_effectively_directs_and_stimulates_discussion>
