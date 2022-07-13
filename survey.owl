@@ -515,14 +515,6 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#The_instructor_is_well-prepared_for_the_class -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#The_instructor_is_well-prepared_for_the_class">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleQuestions"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://parita-amin.github.io/survey.owl#05-JAN-2022 -->
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#05-JAN-2022">
