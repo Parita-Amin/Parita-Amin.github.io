@@ -480,6 +480,12 @@
     <!-- https://parita-amin.github.io/survey.owl#SurveyCollection -->
 
     <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyCollection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#isCollectionOf"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyResponse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#SurveyResponse"/>
     </owl:Class>
     
