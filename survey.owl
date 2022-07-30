@@ -95,14 +95,6 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasRespondedOn -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasRespondedOn">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://parita-amin.github.io/survey.owl#hasSemesterID -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasSemesterID">
