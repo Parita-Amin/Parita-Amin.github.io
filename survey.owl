@@ -51,7 +51,10 @@
 
     <!-- https://parita-amin.github.io/survey.owl#hasEligibleRespondents -->
 
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasEligibleRespondents"/>
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasEligibleRespondents">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+    </owl:ObjectProperty>
     
 
 
