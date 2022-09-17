@@ -50,6 +50,12 @@
     
 
 
+    <!-- https://parita-amin.github.io/survey.owl#hasEligibleRespondents -->
+
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasEligibleRespondents"/>
+    
+
+
     <!-- https://parita-amin.github.io/survey.owl#hasEvent -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasEvent">
