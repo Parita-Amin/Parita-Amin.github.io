@@ -10,7 +10,7 @@ survey:RespondentShape
     sh:targetClass survey:Respondent ; # Applies to all Respondents
 
 	  sh:property [
-        sh:path survey:hasLikertAns_clearly_answers_questions ;       # constrains the values of survey:hasLikertAns_clearly_answers_questions
+        sh:path survey:hasLikertQ6Ans ;       # constrains the values of survey:hasLikertQ6Ans
         sh:datatype xsd:positiveInteger ;
         sh:minInclusive  1 ;
         sh:maxInclusive 5 ;
@@ -18,7 +18,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation ;       # constrains the values of survey:hasLikertAns_clearly_communicates_his_expectations_for_student_preparation_and_participation
+          sh:path survey:hasLikertQ2Ans ;       # constrains the values of survey:hasLikertQ2Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -26,7 +26,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_effectively_directs_and_stimulates_discussion ;       # constrains the values of survey:hasLikertAns_effectively_directs_and_stimulates_discussion
+          sh:path survey:hasLikertQ8Ans ;       # constrains the values of survey:hasLikertQ8Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -34,7 +34,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers ;       # constrains the values of survey:hasLikertAns_effectively_encourages_students_to_ask_questions_and_give_answers
+          sh:path survey:hasLikertQ9Ans ;       # constrains the values of survey:hasLikertQ9Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -42,7 +42,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_encourages_student_participation ;       # constrains the values of survey:hasLikertAns_encourages_student_participation
+          sh:path survey:hasLikertQ5Ans ;       # constrains the values of survey:hasLikertQ5Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -50,7 +50,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_has_clear_expectations_for_assigned_work ;       # constrains the values of survey:hasLikertAns_has_clear_expectations_for_assigned_work
+          sh:path survey:hasLikertQ4Ans ;       # constrains the values of survey:hasLikertQ4Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -58,7 +58,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_is_well-prepared_for_class ;       # constrains the values of survey:hasLikertAns_is_well-prepared_for_class
+          sh:path survey:hasLikertQ1Ans ;       # constrains the values of survey:hasLikertQ1Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -66,7 +66,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_treats_students_with_respect ;       # constrains the values of survey:hasLikertAns_treats_students_with_respect
+          sh:path survey:hasLikertQ7Ans ;       # constrains the values of survey:hasLikertQ7Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -74,7 +74,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertAns_uses_class_time_effectively ;       # constrains the values of survey:hasLikertAns_uses_class_time_effectively
+          sh:path survey:hasLikertQ3Ans ;       # constrains the values of survey:hasLikertQ3Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
