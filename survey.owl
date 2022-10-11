@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/pda324/ontologies/untitled-ontology-153#"
-     xml:base="http://www.semanticweb.org/pda324/ontologies/untitled-ontology-153"
+<rdf:RDF xmlns="https://parita-amin.github.io/survey.owl"
+     xml:base="https://parita-amin.github.io/survey.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -644,7 +644,7 @@
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Change">
         <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-        <survey:hasOEAns_Change rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></survey:hasOEAns_Change>
+        <survey:hasOEAns_Change></survey:hasOEAns_Change>
     </owl:NamedIndividual>
     
 
@@ -653,7 +653,7 @@
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_LikeBest">
         <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-        <survey:hasOEAns_LikeBest rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></survey:hasOEAns_LikeBest>
+        <survey:hasOEAns_LikeBest></survey:hasOEAns_LikeBest>
     </owl:NamedIndividual>
     
 
@@ -662,7 +662,7 @@
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Strengths">
         <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-        <survey:hasOEAns_Strengths rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></survey:hasOEAns_Strengths>
+        <survey:hasOEAns_Strengths></survey:hasOEAns_Strengths>
     </owl:NamedIndividual>
     
 
