@@ -135,7 +135,7 @@
   	survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
   	survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
   	survey:hasOEAnswer_Change "This class is different from all the other classes I have taken. The discussions are open-ended and sometimes I feel I am not sure how well I am doing in this class or what I am learning. I would like to see more concrete implementation for achieving the desired learning outcomes. I do not what would be there on the final exam and what should I need to do to pass the final exam.";
-  	survey:hasOEAnswer_LikeBest "The course effectively encourages me to ask questions and give answers. I like the class discussions on current topics in the world, helps me keep myself aware of what is happening in the world. ";
+  	survey:hasOEAnswer_LikeBest "The course effectively encourages me to ask questions and give answers. I like the class discussions on current topics in the world, helps me keep myself aware of what is happening in the world.";
   	survey:hasOEAnswer_Strengths "Dr. Daryl Hepting is a great mentor with a lot of knowledge and experience teaching this course. He is always well-prepared for the class and communicates his expectations for students clearly. His teaching style encourages student participation. He is very respectful of his students and always willing to go above and beyond for helping his students. I would definitely take another class with Dr. Hepting." .
 
 :C1R6 a survey:Respondent;
@@ -213,8 +213,8 @@
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
 		  survey:hasOEAnswer_Change "Not much honestly, I don't see a need to change something that works.";
-		  survey:hasOEAnswer_LikeBest "I enjoy how the instructor is very knowledgeable and always available when questions need to be answered.  ";
-		  survey:hasOEAnswer_Strengths "His knowledge. " .
+		  survey:hasOEAnswer_LikeBest "I enjoy how the instructor is very knowledgeable and always available when questions need to be answered.";
+		  survey:hasOEAnswer_Strengths "His knowledge." .
 
 :C1R12 a survey:Respondent;
 		  survey:hasLikertQ6Ans "3"^^xsd:positiveInteger;
@@ -241,7 +241,7 @@
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
 		  survey:hasOEAnswer_Change "Nothing I can think of";
-		  survey:hasOEAnswer_LikeBest "The discussions ";
+		  survey:hasOEAnswer_LikeBest "The discussions";
 		  survey:hasOEAnswer_Strengths "Creative" .
 
 :C1R14 a survey:Respondent;
@@ -304,9 +304,9 @@
 		  survey:hasLikertQ1Ans "4"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "The only thing  I  would like to change about this course would be to have the course content a little bit more organized and fast-paced and focused on the final exam since it is 25% of our final grade and also explain what would the final exam entail.";
-		  survey:hasOEAnswer_LikeBest "I really like how the professor encourages open student discussion  on current world events and topics related to the course. The  lively exchange of ideas during the class makes for the majority of the course content and it is an innovative way of learning and encouraging student participation.";
-		  survey:hasOEAnswer_Strengths "The instructor's greatest strengths are: - Encourage student participation and make every student feel welcomed to join any on-going discussion.- Engaging students by related current world events to our course content- Patience and enthusiasm during the class-Clarity about assignments" .
+		  survey:hasOEAnswer_Change "The only thing I would like to change about this course would be to have the course content a little bit more organized and fast-paced and focused on the final exam since it is 25% of our final grade and also explain what would the final exam entail.";
+		  survey:hasOEAnswer_LikeBest "I really like how the professor encourages open student discussion on current world events and topics related to the course. The lively exchange of ideas during the class makes for the majority of the course content and it is an innovative way of learning and encouraging student participation.";
+		  survey:hasOEAnswer_Strengths "The instructor's greatest strengths are:- Encourage student participation and make every student feel welcomed to join any on-going discussion.- Engaging students by related current world events to our course content.- Patience and enthusiasm during the class.- Clarity about assignments" .
 
 :C1R19 a survey:Respondent;
 		  survey:hasLikertQ6Ans "5"^^xsd:positiveInteger;
@@ -318,7 +318,7 @@
 		  survey:hasLikertQ1Ans "3"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "I wish that the expectations for assignments were explained more thoroughly further in advance rather than a week before ";
+		  survey:hasOEAnswer_Change "I wish that the expectations for assignments were explained more thoroughly further in advance rather than a week before";
 		  survey:hasOEAnswer_LikeBest "I like the wide variety of topics discussed";
 		  survey:hasOEAnswer_Strengths "Interacting with students and encouraging discussion" .
 
@@ -372,9 +372,9 @@
 		  survey:hasLikertQ1Ans "4"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "3"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "More clearly laid out assignment details and expectations; Sometimes feels like there's a lot of dead space in class where time could be used more effectively. ";
-		  survey:hasOEAnswer_LikeBest "The interesting discussions about online activity and information. ";
-		  survey:hasOEAnswer_Strengths "The ability to foster and encourage interesting in class discussion. " .
+		  survey:hasOEAnswer_Change "More clearly laid out assignment details and expectations; Sometimes feels like there's a lot of dead space in class where time could be used more effectively.";
+		  survey:hasOEAnswer_LikeBest "The interesting discussions about online activity and information.";
+		  survey:hasOEAnswer_Strengths "The ability to foster and encourage interesting in class discussion." .
 
 :C1R24 a survey:Respondent;
 		  survey:hasLikertQ6Ans "5"^^xsd:positiveInteger;
@@ -402,7 +402,7 @@
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
 		  survey:hasOEAnswer_Change "Nothing so far.";
 		  survey:hasOEAnswer_LikeBest "The professor is very considerate of the students. He always encourages lively discussions.";
-		  survey:hasOEAnswer_Strengths "Instructor is very considerate of students. Does not give work during holidays or immediately after. Gives students time and second chances. " .
+		  survey:hasOEAnswer_Strengths "Instructor is very considerate of students. Does not give work during holidays or immediately after. Gives students time and second chances." .
 
 :C1R26 a survey:Respondent;
 		  survey:hasLikertQ6Ans "5"^^xsd:positiveInteger;
@@ -414,8 +414,8 @@
 		  survey:hasLikertQ1Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "5"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "Nothing from my point of view. ";
-		  survey:hasOEAnswer_LikeBest "Professor Hepting I guess, he is well prepared and has answers to our questions promptly. ";
+		  survey:hasOEAnswer_Change "Nothing from my point of view.";
+		  survey:hasOEAnswer_LikeBest "Professor Hepting I guess, he is well prepared and has answers to our questions promptly.";
 		  survey:hasOEAnswer_Strengths "Not going to a different topic unless things are clear for all the students." .
 
 :C1R27 a survey:Respondent;
@@ -478,8 +478,8 @@
 		  survey:hasLikertQ1Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "5"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "Nothing ! It’s all good and perfect.";
-		  survey:hasOEAnswer_LikeBest "It’s interesting and non complicated course which is based on our daily lives. The main thing is that it does not require mental attention and it’s a free learning and fun course.";
+		  survey:hasOEAnswer_Change "Nothing ! It's all good and perfect.";
+		  survey:hasOEAnswer_LikeBest "It's interesting and non complicated course which is based on our daily lives. The main thing is that it does not require mental attention and it's a free learning and fun course.";
 		  survey:hasOEAnswer_Strengths "He is soft spoken, always keeps patience, answers questions and explains things thoroughly." .
 
 :C1R32 a survey:Respondent;
@@ -492,9 +492,9 @@
 		  survey:hasLikertQ1Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "5"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "Nothing in particular. ";
-		  survey:hasOEAnswer_LikeBest "The topics which are covered in this course. ";
-		  survey:hasOEAnswer_Strengths "The greatest strength of the instructor of this course is that he ready to help even if you ask question in middle of discussion he is ready to answer. Also to make students more interactive he arranges class discussion as well which also with the participation.  " .
+		  survey:hasOEAnswer_Change "Nothing in particular.";
+		  survey:hasOEAnswer_LikeBest "The topics which are covered in this course.";
+		  survey:hasOEAnswer_Strengths "The greatest strength of the instructor of this course is that he ready to help even if you ask question in middle of discussion he is ready to answer. Also to make students more interactive he arranges class discussion as well which also with the participation." .
 
 :C1R33 a survey:Respondent;
 		  survey:hasLikertQ6Ans "5"^^xsd:positiveInteger;
@@ -520,7 +520,7 @@
 		  survey:hasLikertQ1Ans "4"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "Lecture’s  are little boring  and need some entertainment. He is a great teacher but students need some motivation thats is what is missing and a big smile is missing of professor";
+		  survey:hasOEAnswer_Change "Lecture's are little boring and need some entertainment. He is a great teacher but students need some motivation thats is what is missing and a big smile is missing of professor";
 		  survey:hasOEAnswer_LikeBest "The thing i like most about this course is it very based on research and that is what is making me research more about the topics discussed. Since then i have started to research more and more about the class";
 		  survey:hasOEAnswer_Strengths "He is really good with the topics and knows everything he teaches he helps us with some research strategies thats what is the greatest strength." .
 
@@ -618,7 +618,7 @@
 		  survey:hasLikertQ1Ans "2"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "2"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "To be honest, I didn't find anything best yet, because we didn't get proper knowledge in this class as we have given the name of a textbook but in class, we didn't get any information regarding our course. Every day I have found that Professor is busy changing the due dates and editing on URCourses. One of my friends suggested CS280 and also told me that I will gain more knowledge as well as I will really enjoy this course. But, somehow I'm feeling completely opposite. I'm completely disappointed with this course.Hope I'll get at least some knowledge of this course and suggest others for this course.";
+		  survey:hasOEAnswer_Change "To be honest, I didn't find anything best yet, because we didn't get proper knowledge in this class as we have given the name of a textbook but in class, we didn't get any information regarding our course. Every day I have found that Professor is busy changing the due dates and editing on URCourses. One of my friends suggested CS280 and also told me that I will gain more knowledge as well as I will really enjoy this course. But, somehow I'm feeling completely opposite. I'm completely disappointed with this course. Hope I'll get at least some knowledge of this course and suggest others for this course.";
 		  survey:hasOEAnswer_LikeBest "As this course is running remotely as well as in-person which is the only one best thing I have found. Also, The way the professor treats us with very polite behavior.";
 		  survey:hasOEAnswer_Strengths "I have found that the professor is more knowledgeable but his teaching style does not fit particularly in my mind." .
 
@@ -658,8 +658,8 @@
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
 		  survey:hasOEAnswer_Change "Nothing.";
-		  survey:hasOEAnswer_LikeBest "Flexible assignment due dates. Different projects with a different perspective can make a lot of difference in group projects. ";
-		  survey:hasOEAnswer_Strengths "The way he conducts the class and how he organizeshis website like detailed assignment requirements and the syllabus also how and when the assignment and exams are due. " .
+		  survey:hasOEAnswer_LikeBest "Flexible assignment due dates. Different projects with a different perspective can make a lot of difference in group projects.";
+		  survey:hasOEAnswer_Strengths "The way he conducts the class and how he organizeshis website like detailed assignment requirements and the syllabus also how and when the assignment and exams are due." .
 
 :C1R45 a survey:Respondent;
 		  survey:hasLikertQ6Ans "3"^^xsd:positiveInteger;
@@ -700,7 +700,7 @@
 		  survey:hasLikertQ7Ans "4"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
 		  survey:hasOEAnswer_Change "I wish it was more constructed and had notes or readings for us to do";
-		  survey:hasOEAnswer_LikeBest "The in class discussions are interesting " .
+		  survey:hasOEAnswer_LikeBest "The in class discussions are interesting" .
 
 :C1R48 a survey:Respondent;
 		  survey:hasLikertQ6Ans "5"^^xsd:positiveInteger;
@@ -750,8 +750,8 @@
 		  survey:hasLikertQ1Ans "4"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "3"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "I'd like to spend more time exploring topics and learning new ideas than just administration stuff. I think it's only like this because of online learning and Covid, though, so I understand if there's a lot of difficulties we have to work through. I just wish it wasn't so often. It'll probably get better once everything is in person. ";
-		  survey:hasOEAnswer_LikeBest "The discussion on various topics; gaining new insight and ideas from my peersVery low-intensity Lots of critical thinking and researchI also really like the post-lecture feedback from each student regarding that day's topic. It's interesting to see other people's posts because I can learn new ideas from them.";
+		  survey:hasOEAnswer_Change "I'd like to spend more time exploring topics and learning new ideas than just administration stuff. I think it's only like this because of online learning and Covid, though, so I understand if there's a lot of difficulties we have to work through. I just wish it wasn't so often. It'll probably get better once everything is in person.";
+		  survey:hasOEAnswer_LikeBest "The discussion on various topics; gaining new insight and ideas from my peers; Very low-intensity; Lots of critical thinking and research; I also really like the post-lecture feedback from each student regarding that day's topic. It's interesting to see other people's posts because I can learn new ideas from them.";
 		  survey:hasOEAnswer_Strengths "Really engages class discussion. It's nice because you get to hear other viewsProvides some really good resources (all of which are free!). The Ted talks, articles, and book are pretty relevant and insightful. I appreciate that everything is gathered together in the website because I might miss something.I also appreciate the class notes summary that students post. I can look at them in case I miss a class." .
 
 :C1R52 a survey:Respondent;
@@ -764,9 +764,9 @@
 		  survey:hasLikertQ1Ans "4"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "I think there is nothing that needs to be changed except giving lot of assignments.. ";
-		  survey:hasOEAnswer_LikeBest "Taking this course I got to know many things like how information is important and what is privacy and so on... So it is an interesting class I guess... ";
-		  survey:hasOEAnswer_Strengths "I think Dr Daryl Hepting has good nature and he is friendly with everyone and so I think this is his greatest strength... " .
+		  survey:hasOEAnswer_Change "I think there is nothing that needs to be changed except giving lot of assignments..";
+		  survey:hasOEAnswer_LikeBest "Taking this course I got to know many things like how information is important and what is privacy and so on... So it is an interesting class I guess...";
+		  survey:hasOEAnswer_Strengths "I think Dr Daryl Hepting has good nature and he is friendly with everyone and so I think this is his greatest strength..." .
 
 :C1R53 a survey:Respondent;
 		  survey:hasLikertQ6Ans "4"^^xsd:positiveInteger;
@@ -811,8 +811,8 @@
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "4"^^xsd:positiveInteger;
 		  survey:hasOEAnswer_Change "This course is good. The only thing is sometimes Dr Daryl don't reply to emails.";
-		  survey:hasOEAnswer_LikeBest "The freedom to speak what you think and believe in. The freedom and encouragement of expressing your thoughts and opinions about various topics. I like the professor. Dr Daryl always keeps his calm. I have never seen him angry; I like his patience. He listens to the students, for example when we asked for extending the deadlines for blog entry assignment, he listened to us and extended it. ";
-		  survey:hasOEAnswer_Strengths "His calm, patience, knowledge, enthusiasm about participation. " .
+		  survey:hasOEAnswer_LikeBest "The freedom to speak what you think and believe in. The freedom and encouragement of expressing your thoughts and opinions about various topics. I like the professor. Dr Daryl always keeps his calm. I have never seen him angry; I like his patience. He listens to the students, for example when we asked for extending the deadlines for blog entry assignment, he listened to us and extended it.";
+		  survey:hasOEAnswer_Strengths "His calm, patience, knowledge, enthusiasm about participation." .
 
 :C1R57 a survey:Respondent;
 		  survey:hasLikertQ6Ans "5"^^xsd:positiveInteger;
@@ -849,6 +849,6 @@
 		  survey:hasLikertQ1Ans "3"^^xsd:positiveInteger;
 		  survey:hasLikertQ7Ans "5"^^xsd:positiveInteger;
 		  survey:hasLikertQ3Ans "1"^^xsd:positiveInteger;
-		  survey:hasOEAnswer_Change "1. I’d like a roadmap to final exam prep – With the final coming up it is important to have a clear understanding of how we should be preparing for it. Would it be fair to say that the majority of the test will be on the textbook? Because as of right now I would be able to answer none of the practice exam questions because we haven’t covered the relevant events – which has me concerned that the final – which I have to pass to pass the class – may be the same since practice exams are supposed to help you practice for the final. 2. Pacing/speaking skills/preparation could improve – I was surprised when I joined this class. Your speech was very slow and you seemed to be struggling to communicate. Since that day, every day you have gotten slightly better at speaking. I just wanted to acknowledge that this is a thing and many people were concerned about it. Several people I know dropped your class because of it both this year and previous years. I’m not sure what was causing this, but I thought you ought to know. I will also add that today your speech seemed totally normal and you were prepared and had good pacing.";
+		  survey:hasOEAnswer_Change "1. I'd like a roadmap to final exam prep - With the final coming up it is important to have a clear understanding of how we should be preparing for it. Would it be fair to say that the majority of the test will be on the textbook? Because as of right now I would be able to answer none of the practice exam questions because we haven't covered the relevant events - which has me concerned that the final - which I have to pass to pass the class - may be the same since practice exams are supposed to help you practice for the final. 2. Pacing/speaking skills/preparation could improve - I was surprised when I joined this class. Your speech was very slow and you seemed to be struggling to communicate. Since that day, every day you have gotten slightly better at speaking. I just wanted to acknowledge that this is a thing and many people were concerned about it. Several people I know dropped your class because of it both this year and previous years. I'm not sure what was causing this, but I thought you ought to know. I will also add that today your speech seemed totally normal and you were prepared and had good pacing.";
 		  survey:hasOEAnswer_LikeBest "It opened my eyes to the act of analyzing algorithms to ensure they are ethical.";
-		  survey:hasOEAnswer_Strengths "You listen to people’s feedback during class and seem to actually care about people. That goes a long way." .
+		  survey:hasOEAnswer_Strengths "You listen to people's feedback during class and seem to actually care about people. That goes a long way." .
