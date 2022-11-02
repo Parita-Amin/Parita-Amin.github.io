@@ -27,15 +27,8 @@
     <!-- https://parita-amin.github.io/survey.owl#hasCollection -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasCollection">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Course"/>
         <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#hasContent -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasContent"/>
     
 
 
@@ -43,53 +36,25 @@
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasEligibleRespondents">
         <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertItemAnswer -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLikertScale -->
 
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertItemAnswer">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleQuestions"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertItemLabel -->
+    <!-- https://parita-amin.github.io/survey.owl#hasOffering -->
 
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertItemLabel">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOffering"/>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasOEAnswer_Change -->
+    <!-- https://parita-amin.github.io/survey.owl#hasQuestion -->
 
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAnswer_Change">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#hasOEAnswer_LikeBest -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAnswer_LikeBest">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#hasOEAnswer_Strengths -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAnswer_Strengths">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasQuestion"/>
     
 
 
@@ -97,28 +62,14 @@
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasRespondent">
         <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#SurveyRespondent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasSurveyAnswer -->
+    <!-- https://parita-amin.github.io/survey.owl#hasSurvey -->
 
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasSurveyAnswer">
-        <rdfs:subPropertyOf rdf:resource="https://parita-amin.github.io/survey.owl#hasContent"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#SurveyAnswers"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#hasSurveyQuestion -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasSurveyQuestion">
-        <rdfs:subPropertyOf rdf:resource="https://parita-amin.github.io/survey.owl#hasContent"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestions"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasSurvey"/>
     
 
 
@@ -126,15 +77,6 @@
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#isTypeOf">
         <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#FeedbackSurvey"/>
-        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#respondedToSurvey -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#respondedToSurvey">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
         <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
     </owl:ObjectProperty>
     
@@ -151,120 +93,117 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ1Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ1Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ1Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ1Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q1_The_instructor_is_well-prepared_for_class"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ2Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ2Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ2Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ2Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q2_The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ3Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ3Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ3Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ3Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q3_The_instructor_uses_class_time_effectively"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ4Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ4Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ4Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ4Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q4_The_instructor_has_clear_expectations_for_assigned_work"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ5Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ5Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ5Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ5Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q5_The_instructor_encourages_student_participation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ6Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ6Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ6Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ6Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q6_The_instructor_clearly_answers_questions"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ7Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ7Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ7Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ7Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q7_The_instructor_treats_students_with_respect"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ8Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ8Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ8Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ8Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q8_The_instructor_effectively_directs_and_stimulates_discussion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasLikertQ9Ans -->
+    <!-- https://parita-amin.github.io/survey.owl#hasLSQ9Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertQ9Ans">
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLSQ9Ans">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Q9_The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasOEAns_Change -->
+    <!-- https://parita-amin.github.io/survey.owl#hasOEQ1Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAns_Change">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEQ1Ans">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasOEAns_LikeBest -->
+    <!-- https://parita-amin.github.io/survey.owl#hasOEQ2Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAns_LikeBest">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEQ2Ans">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#hasOEAns_Strengths -->
+    <!-- https://parita-amin.github.io/survey.owl#hasOEQ3Ans -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEAns_Strengths">
-        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOEQ3Ans">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#hasQuestionText -->
+
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
     
 
 
@@ -283,14 +222,19 @@
 
     <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Course">
         <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Event -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Event">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasCollection"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasOffering"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Offering"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#Offering"/>
     </owl:Class>
     
 
@@ -299,13 +243,290 @@
 
     <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#FeedbackSurvey">
         <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
+        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#FeedbackSurveyRespondent"/>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5 -->
+    <!-- https://parita-amin.github.io/survey.owl#FeedbackSurveyRespondent -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5">
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#FeedbackSurveyRespondent">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyRespondent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurvey -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurvey">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#FeedbackSurvey"/>
+        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurveyRespondent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurveyRespondent -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurveyRespondent">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#FeedbackSurveyRespondent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ1 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ1">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor is well-prepared for class</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ1Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ1Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ2 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ2">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor clearly communicates his expectations for student preparation and participation</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ2Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ2Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ3 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ3">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor uses class time effectively</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ3Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ3Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ4 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ4">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor has clear expectations for assigned work</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ4Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ4Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ5 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ5">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor encourages student participation</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ5Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ5Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ6 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ6">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor clearly answers questions</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ6Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ6Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ7 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ7">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor treats students with respect</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ7Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ7Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ8 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ8">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor effectively directs and stimulates discussion</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ8Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ8Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ9 -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ9">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>The instructor effectively encourages students to ask questions and give answers</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LSQ9Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LSQ9Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LikertQuestion -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQuestion">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LikertScale -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertScale">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LikertScaleAnswer -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertScaleAnswer">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyAnswer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#LikertScaleQuestion -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertScaleQuestion">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#Never1Always5LikertScale -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
@@ -317,259 +538,115 @@
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemAnswer"/>
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#LikertItem -->
+    <!-- https://parita-amin.github.io/survey.owl#OEQ1 -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertItem">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleQuestions"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OEQ1">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestion"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasLikertItemAnswer"/>
-                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemAnswer"/>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>What do you like best about the course?</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#OEQ1Ans -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OEQ1Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswer"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasLikertItemLabel"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasOEQ1Ans"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#LikertItemAnswer -->
+    <!-- https://parita-amin.github.io/survey.owl#OEQ2 -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertItemAnswer">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyAnswers"/>
-        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OEQ2">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>What would you like to change about the course?</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#LikertItemLabel -->
+    <!-- https://parita-amin.github.io/survey.owl#OEQ2Ans -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertItemLabel">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleQuestions"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OEQ2Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasOEQ2Ans"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ1 -->
+    <!-- https://parita-amin.github.io/survey.owl#OEQ3 -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ1">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OEQ3">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:hasValue>What do you think the instructor&apos;s greatest strengths are?</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ2 -->
+    <!-- https://parita-amin.github.io/survey.owl#OEQ3Ans -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ2">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OEQ3Ans">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasOEQ3Ans"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ3 -->
+    <!-- https://parita-amin.github.io/survey.owl#Offering -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ3">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ4 -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ4">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ5 -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ5">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ6 -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ6">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ7 -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ7">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ8 -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ8">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#LikertQ9 -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertQ9">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#LikertScaleQuestions -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertScaleQuestions">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestions"/>
-        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OpenEndedAnswers -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OpenEndedAnswers">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Change"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEAns_LikeBest"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Strengths"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyAnswers"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OpenEndedQuestions -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OpenEndedQuestions">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_Change"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_LikeBest"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_Strengths"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestions"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q1_The_instructor_is_well-prepared_for_class -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q1_The_instructor_is_well-prepared_for_class">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q2_The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q2_The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q3_The_instructor_uses_class_time_effectively -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q3_The_instructor_uses_class_time_effectively">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q4_The_instructor_has_clear_expectations_for_assigned_work -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q4_The_instructor_has_clear_expectations_for_assigned_work">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q5_The_instructor_encourages_student_participation -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q5_The_instructor_encourages_student_participation">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q6_The_instructor_clearly_answers_questions -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q6_The_instructor_clearly_answers_questions">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q7_The_instructor_treats_students_with_respect -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q7_The_instructor_treats_students_with_respect">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q8_The_instructor_effectively_directs_and_stimulates_discussion -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q8_The_instructor_effectively_directs_and_stimulates_discussion">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q9_The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Q9_The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Respondent -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Respondent">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Respondent"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#respondedToSurvey"/>
-                        <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Semester -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Semester">
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Offering">
         <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#OpenEndedAnswer -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OpenEndedAnswer">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyAnswer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#OpenEndedQuestion -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#OpenEndedQuestion">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestion"/>
     </owl:Class>
     
 
@@ -579,29 +656,60 @@
     <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Survey">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasSurveyQuestion"/>
-                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestions"/>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestion"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#SurveyAnswers -->
+    <!-- https://parita-amin.github.io/survey.owl#SurveyAnswer -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyAnswers"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyAnswer">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurveyRespondent"/>
+    </owl:Class>
     
 
 
     <!-- https://parita-amin.github.io/survey.owl#SurveyCollection -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyCollection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasEligibleRespondents"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyRespondent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#SurveyQuestions -->
+    <!-- https://parita-amin.github.io/survey.owl#SurveyQuestion -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyQuestions"/>
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyQuestion">
+        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurvey"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://parita-amin.github.io/survey.owl#SurveyRespondent -->
+
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#SurveyRespondent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasCollection"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -616,93 +724,10 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#C1R1 -->
+    <!-- https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurvey -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#C1R1">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Respondent"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Collection1 -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#Collection1">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Midterm -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#Midterm">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Event"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OEAns_Change -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Change">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-        <survey:hasOEAns_Change></survey:hasOEAns_Change>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OEAns_LikeBest -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_LikeBest">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-        <survey:hasOEAns_LikeBest></survey:hasOEAns_LikeBest>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OEAns_Strengths -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEAns_Strengths">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswers"/>
-        <survey:hasOEAns_Strengths></survey:hasOEAns_Strengths>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OEQuestion_Change -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_Change">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OEQuestion_LikeBest -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_LikeBest">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#OEQuestion_Strengths -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#OEQuestion_Strengths">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q1_LI -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#Q1_LI">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertItem"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Q1_LI_Label -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#Q1_LI_Label">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertItemLabel"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurvey">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#FeedbackSurvey"/>
     </owl:NamedIndividual>
     
 
@@ -710,7 +735,7 @@
     <!-- https://parita-amin.github.io/survey.owl#1_Never -->
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#1_Never">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5"/>
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
     </owl:NamedIndividual>
     
 
@@ -718,15 +743,7 @@
     <!-- https://parita-amin.github.io/survey.owl#2_Rarely -->
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#2_Rarely">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#202210 -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#202210">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Semester"/>
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
     </owl:NamedIndividual>
     
 
@@ -734,7 +751,7 @@
     <!-- https://parita-amin.github.io/survey.owl#3_Sometimes -->
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#3_Sometimes">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5"/>
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
     </owl:NamedIndividual>
     
 
@@ -742,7 +759,7 @@
     <!-- https://parita-amin.github.io/survey.owl#4_Often -->
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#4_Often">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5"/>
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
     </owl:NamedIndividual>
     
 
@@ -750,15 +767,7 @@
     <!-- https://parita-amin.github.io/survey.owl#5_Always -->
 
     <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#5_Always">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertAns_Never1Always5"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#CS280/202210 -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#CS280/202210">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Course"/>
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
     </owl:NamedIndividual>
     
 
@@ -774,45 +783,53 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ1"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ2"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ3"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ4"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ5"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ6"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ7"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ8"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LikertQ9"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ1"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ2"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ3"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q1_The_instructor_is_well-prepared_for_class"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q2_The_instructor_clearly_communicates_his_expectations_for_student_preparation_and_participation"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q3_The_instructor_uses_class_time_effectively"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q4_The_instructor_has_clear_expectations_for_assigned_work"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q5_The_instructor_encourages_student_participation"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q6_The_instructor_clearly_answers_questions"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q7_The_instructor_treats_students_with_respect"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q8_The_instructor_effectively_directs_and_stimulates_discussion"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Q9_The_instructor_effectively_encourages_students_to_ask_questions_and_give_answers"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ1"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ2"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ3"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ4"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ5"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ6"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ7"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ8"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ1Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ2Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ3Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ4Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ5Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ6Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ7Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ8Ans"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#LSQ9Ans"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQ1"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQ2"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#OEQ3"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#Survey"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#SurveyAnswers"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#SurveyQuestions"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#hasOEAnswer_Change"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#hasOEAnswer_LikeBest"/>
-            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#hasOEAnswer_Strengths"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+            <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#SurveyRespondent"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
