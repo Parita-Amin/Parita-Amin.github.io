@@ -224,12 +224,6 @@
         <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasCollection"/>
-                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasOffering"/>
                 <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Offering"/>
             </owl:Restriction>
@@ -631,6 +625,12 @@
 
     <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Offering">
         <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasCollection"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
