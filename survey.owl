@@ -32,6 +32,12 @@
     
 
 
+    <!-- https://parita-amin.github.io/survey.owl#hasCourseOffering -->
+
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasCourseOffering"/>
+    
+
+
     <!-- https://parita-amin.github.io/survey.owl#hasEligibleRespondents -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasEligibleRespondents">
@@ -43,12 +49,6 @@
     <!-- https://parita-amin.github.io/survey.owl#hasLikertScale -->
 
     <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#hasOffering -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasOffering"/>
     
 
 
@@ -218,17 +218,16 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#Course -->
+    <!-- https://parita-amin.github.io/survey.owl#CourseOffering -->
 
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Course">
+    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#CourseOffering">
         <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasOffering"/>
-                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Offering"/>
+                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasCollection"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#Offering"/>
     </owl:Class>
     
 
@@ -472,7 +471,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
-                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -482,6 +481,17 @@
     <!-- https://parita-amin.github.io/survey.owl#LikertScale -->
 
     <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#LikertScale">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#1"/>
+                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#2"/>
+                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#3"/>
+                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#4"/>
+                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#5"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleQuestion"/>
     </owl:Class>
     
@@ -494,7 +504,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
-                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedAnswer"/>
@@ -514,25 +524,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://parita-amin.github.io/survey.owl#OpenEndedQuestion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Never1Always5LikertScale -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#1_Never"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#2_Rarely"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#3_Sometimes"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#4_Often"/>
-                    <rdf:Description rdf:about="https://parita-amin.github.io/survey.owl#5_Always"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
     </owl:Class>
     
 
@@ -615,20 +606,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasOEQ3Ans"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#Offering -->
-
-    <owl:Class rdf:about="https://parita-amin.github.io/survey.owl#Offering">
-        <rdfs:subClassOf rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://parita-amin.github.io/survey.owl#hasCollection"/>
-                <owl:someValuesFrom rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -724,50 +701,42 @@
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurvey -->
+    <!-- https://parita-amin.github.io/survey.owl#1 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#HeptingStudentFeedbackSurvey">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#FeedbackSurvey"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#1">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#1_Never -->
+    <!-- https://parita-amin.github.io/survey.owl#2 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#1_Never">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#2">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#2_Rarely -->
+    <!-- https://parita-amin.github.io/survey.owl#3 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#2_Rarely">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#3">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#3_Sometimes -->
+    <!-- https://parita-amin.github.io/survey.owl#4 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#3_Sometimes">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#4">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://parita-amin.github.io/survey.owl#4_Often -->
+    <!-- https://parita-amin.github.io/survey.owl#5 -->
 
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#4_Often">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#5_Always -->
-
-    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#5_Always">
-        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#Never1Always5LikertScale"/>
+    <owl:NamedIndividual rdf:about="https://parita-amin.github.io/survey.owl#5">
+        <rdf:type rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
     </owl:NamedIndividual>
     
 
