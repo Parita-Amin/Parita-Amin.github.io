@@ -4,16 +4,16 @@
 @prefix survey: <https://parita-amin.github.io/survey.owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <https://parita-amin.github.io/survey-data/> .
+@prefix : <https://parita-amin.github.io/survey-data/CS-280-202210.ttl> .
 
 :HeptingStudentFeedbackSurvey a survey:FeedbackSurvey;
 		survey:isTypeOf :Survey;
 		survey:hasCourseOffering :CS-280-202210.
 
 :CS-280-202210 a survey:CourseOffering;
-		survey:hasCollection :Collection1.
+		survey:hasCollection :Midterm.
 
-:Collection1 a survey:SurveyCollection;
+:Midterm a survey:SurveyCollection;
   	survey:hasEligibleRespondents "100"^^xsd:int;
   	survey:hasRespondent
 		:C1R1,
