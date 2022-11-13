@@ -7,7 +7,7 @@
 
 survey:RespondentShape
     a sh:NodeShape ;
-    sh:targetClass survey:Respondent ; # Applies to all Respondents
+    sh:targetClass survey:SurveyRespondent ; # Applies to all Respondents
 
 	  sh:property [
         sh:path survey:hasLSQ6Ans ;       # constrains the values of survey:hasLSQ6Ans
