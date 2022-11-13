@@ -10,7 +10,7 @@ survey:RespondentShape
     sh:targetClass survey:Respondent ; # Applies to all Respondents
 
 	  sh:property [
-        sh:path survey:hasLikertQ6Ans ;       # constrains the values of survey:hasLikertQ6Ans
+        sh:path survey:hasLSQ6Ans ;       # constrains the values of survey:hasLSQ6Ans
         sh:datatype xsd:positiveInteger ;
         sh:minInclusive  1 ;
         sh:maxInclusive 5 ;
@@ -18,7 +18,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ2Ans ;       # constrains the values of survey:hasLikertQ2Ans
+          sh:path survey:hasLSQ2Ans ;       # constrains the values of survey:hasLSQ2Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -26,7 +26,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ8Ans ;       # constrains the values of survey:hasLikertQ8Ans
+          sh:path survey:hasLSQ8Ans ;       # constrains the values of survey:hasLSQ8Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -34,7 +34,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ9Ans ;       # constrains the values of survey:hasLikertQ9Ans
+          sh:path survey:hasLSQ9Ans ;       # constrains the values of survey:hasLSQ9Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -42,7 +42,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ5Ans ;       # constrains the values of survey:hasLikertQ5Ans
+          sh:path survey:hasLSQ5Ans ;       # constrains the values of survey:hasLSQ5Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -50,7 +50,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ4Ans ;       # constrains the values of survey:hasLikertQ4Ans
+          sh:path survey:hasLSQ4Ans ;       # constrains the values of survey:hasLSQ4Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -58,7 +58,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ1Ans ;       # constrains the values of survey:hasLikertQ1Ans
+          sh:path survey:hasLSQ1Ans ;       # constrains the values of survey:hasLSQ1Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -66,7 +66,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ7Ans ;       # constrains the values of survey:hasLikertQ7Ans
+          sh:path survey:hasLSQ7Ans ;       # constrains the values of survey:hasLSQ7Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
@@ -74,7 +74,7 @@ survey:RespondentShape
     ] ;
 
     sh:property [
-          sh:path survey:hasLikertQ3Ans ;       # constrains the values of survey:hasLikertQ3Ans
+          sh:path survey:hasLSQ3Ans ;       # constrains the values of survey:hasLSQ3Ans
           sh:datatype xsd:positiveInteger ;
           sh:minInclusive  1 ;
           sh:maxInclusive 5 ;
