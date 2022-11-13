@@ -800,15 +800,15 @@
   survey:hasOEQ3Ans "The website used for documentation about meeting documentation (transcripts, responses) and assignments is very nice, and I'm glad effort has gone into making it a good website.While stuttering a lot makes it a bit hard to understand what he's saying, it's not like it makes what he's saying any less interesting. I usually end up thinking about the discussion topics or the lecture topic far after the class because they're that interesting." .
 
 :C1R55 a survey:SurveyRespondent;
-	survey:hasLSQ6Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ2Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ8Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ9Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ5Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ4Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ1Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ7Ans "-999"^^xsd:positiveInteger;
-	survey:hasLSQ3Ans "-999"^^xsd:positiveInteger;
+	survey:hasLSQ6Ans "-4";
+	survey:hasLSQ2Ans "-4";
+	survey:hasLSQ8Ans "-4";
+	survey:hasLSQ9Ans "-5";
+	survey:hasLSQ5Ans "-4";
+	survey:hasLSQ4Ans "-4";
+	survey:hasLSQ1Ans "-3";
+	survey:hasLSQ7Ans "-5";
+	survey:hasLSQ3Ans "-3";
   survey:hasOEQ2Ans "more clarity";
   survey:hasOEQ1Ans "variety of topics" .
 
