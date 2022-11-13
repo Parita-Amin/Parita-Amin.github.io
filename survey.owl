@@ -52,13 +52,20 @@
 
     <!-- https://parita-amin.github.io/survey.owl#hasLikertScale -->
 
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertScale"/>
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasLikertScale">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#LikertQuestion"/>
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#LikertScaleAnswer"/>
+        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#LikertScale"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- https://parita-amin.github.io/survey.owl#hasQuestion -->
 
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasQuestion"/>
+    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasQuestion">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#Survey"/>
+        <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestion"/>
+    </owl:ObjectProperty>
     
 
 
@@ -68,12 +75,6 @@
         <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#SurveyCollection"/>
         <rdfs:range rdf:resource="https://parita-amin.github.io/survey.owl#SurveyRespondent"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- https://parita-amin.github.io/survey.owl#hasSurvey -->
-
-    <owl:ObjectProperty rdf:about="https://parita-amin.github.io/survey.owl#hasSurvey"/>
     
 
 
@@ -219,7 +220,10 @@
 
     <!-- https://parita-amin.github.io/survey.owl#hasQuestionText -->
 
-    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasQuestionText"/>
+    <owl:DatatypeProperty rdf:about="https://parita-amin.github.io/survey.owl#hasQuestionText">
+        <rdfs:domain rdf:resource="https://parita-amin.github.io/survey.owl#SurveyQuestion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
     
 
 
