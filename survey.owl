@@ -9,6 +9,7 @@
      xmlns:survey="https://parita-amin.github.io/survey.owl#">
     <owl:Ontology rdf:about="https://parita-amin.github.io/survey.owl">
         <owl:versionIRI rdf:resource="https://parita-amin.github.io/survey.owl/1.0"/>
+        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution-ShareAlike 4.0 International</terms:license>
     </owl:Ontology>
     
 
